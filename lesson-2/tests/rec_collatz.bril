@@ -1,0 +1,36 @@
+@collatz(n : int) : int {
+  print n;
+
+  one : int = const 1;
+  two : int = const 2;
+  three : int = const 3;
+
+  is_one : bool = eq n one;
+  br is_one .is_one .not_one;
+
+  .is_one:
+    ret one;
+  
+  .not_one:
+    half : int = div n two;
+    round : int= mul half two;
+    match : bool = eq round n;
+    br match .even .odd;
+  
+  .even:
+    next : int = id half;
+    jmp .rec;
+
+  .odd:
+    trip_n : int = mul three n;
+    next : int = add trip_n one;
+  
+  .rec:
+    res : int = call @collatz next;
+    ret res;
+}
+
+@main() {
+  n : int = const 128;
+  r : int = call @collatz n;
+}

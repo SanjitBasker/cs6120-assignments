@@ -1,0 +1,28 @@
+{
+  "main": [
+    {
+      "callee_name": "queen",
+      "pos": {
+        "col": 3,
+        "row": 6
+      }
+    }
+  ],
+  "queen": [
+    {
+      "callee_name": "valid",
+      "pos": {
+        "col": 3,
+        "row": 24
+      }
+    },
+    {
+      "callee_name": "queen",
+      "pos": {
+        "col": 3,
+        "row": 28
+      }
+    }
+  ],
+  "valid": []
+}

@@ -1,0 +1,12 @@
+{
+  "ident": [],
+  "main": [
+    {
+      "callee_name": "ident",
+      "pos": {
+        "col": 3,
+        "row": 7
+      }
+    }
+  ]
+}

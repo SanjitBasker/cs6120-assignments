@@ -1,0 +1,1 @@
+command = "cat {filename} | bril2json -p | python count_fns.py -p {args}"

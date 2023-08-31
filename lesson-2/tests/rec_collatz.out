@@ -1,0 +1,20 @@
+{
+  "collatz": [
+    {
+      "callee_name": "collatz",
+      "pos": {
+        "col": 5,
+        "row": 29
+      }
+    }
+  ],
+  "main": [
+    {
+      "callee_name": "collatz",
+      "pos": {
+        "col": 3,
+        "row": 35
+      }
+    }
+  ]
+}
